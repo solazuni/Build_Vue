@@ -22,6 +22,7 @@ export default {
                 return alertify.error('名稱未輸入!');
             }
             this.$emit('add',this.name);
+            this.name='';
         },
         enterDoAdd(e) {
             if (e.keyCode == 13 || e.which == 13) {
