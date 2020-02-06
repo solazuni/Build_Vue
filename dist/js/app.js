@@ -29,7 +29,7 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     doAdd: function doAdd() {
       if (!this.name) {
-        return alertify.error('名稱未輸入');
+        return alertify.error('名稱未輸入!');
       }
 
       this.$emit('add', this.name);
